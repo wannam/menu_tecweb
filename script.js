@@ -17,7 +17,7 @@ $(".sub-menu a").click(function () {
   // Seleciona o submenu associado ao link clicado e alterna sua visibilidade
   $(this).siblings("ul").slideToggle("100");
   // Alterna a classe do ícone para cima ou para baixo, indicando se o submenu está visível ou não
-  $(this).find(".fa").toggleClass("fa-caret-up fa-caret-down");
+  $(this).find(".right").toggleClass("fa-caret-up fa-caret-down");
 });
 
 // Oculta todos os submenus dentro de elementos com a classe 'sub-menu' dentro de um submenu
@@ -28,5 +28,5 @@ $(".sub-menu ul .sub-menu a").click(function () {
   // Seleciona o submenu associado ao link clicado e alterna sua visibilidade
   $(this).siblings("ul").slideToggle("100");
   // Alterna a classe do ícone para cima ou para baixo, indicando se o submenu está visível ou não
-  $(this).find(".fa").toggleClass("fa-caret-up fa-caret-down");
+  $(this).find(".right").toggleClass("fa-caret-up fa-caret-down");
 });

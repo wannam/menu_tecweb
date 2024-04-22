@@ -78,6 +78,36 @@ body {
     background: #333;
     border-left: 4px solid #3498db;
   }
+
+  /* NOVO MENU */
+  nav ul li ul {
+    display: none; /* Oculta o submenu por padrão */
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background: #555; /* Cor de fundo do submenu */
+    padding: 0;
+    border-top: 1px solid #777;
+  }
+  
+  nav ul li:hover > ul {
+    display: block; /* Mostra o submenu quando o item do menu pai é hover */
+  }
+
+  nav ul li ul li {
+    display: block;
+  }
+  
+  nav ul li ul li a {
+    background: #444;
+    padding: 10px 20px;
+    color: #fff;
+  }
+  
+  nav ul li ul li a:hover {
+    background: #333;
+  }
+  
   /* Float Right/Left */
   .right {
     float: right;

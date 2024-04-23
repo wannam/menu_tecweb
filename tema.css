@@ -86,11 +86,10 @@ nav ul li ul li a:hover {
 
 /*new*/
 
-
 nav ul li ul li ul li a {
   background: #444;
-  border-left: 4px solid transparent;
-  padding: 20px 30px;
+  border-left: 8px solid transparent;
+  padding: 10px 20px;
 }
 nav ul li ul li ul li a:hover {
   background: #333;

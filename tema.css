@@ -86,10 +86,21 @@ nav ul li ul li a:hover {
 
 /*new*/
 
+nav ul li a .badge {
+  display: inline-block;
+  background: #fff;
+  /* IE Fallback */
+  background: rgba(217, 155, 155, 0.2);
+  padding: 3px 7px;
+  color: #fff;
+  font-size: 8px;
+  font-weight: 800;
+}
+
 nav ul li ul li ul li a {
   background: #444;
-  border-left: 8px solid transparent;
-  padding: 10px 20px;
+  border-left: 4px solid transparent;
+  padding: 20px 30px;
 }
 nav ul li ul li ul li a:hover {
   background: #333;

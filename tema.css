@@ -82,6 +82,21 @@ nav ul li ul li a:hover {
   background: #333;
   border-left: 4px solid #3498db;
 }
+
+
+/*new*/
+
+nav ul li ul li ul li a {
+  background: #444;
+  border-left: 8px solid transparent;
+  padding: 10px 20px;
+}
+nav ul li ul li ul li a:hover {
+  background: #333;
+  border-left: 8px solid #3498db;
+}
+
+
 /* Float Right/Left */
 .right {
   float: right;

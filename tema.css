@@ -74,12 +74,12 @@ nav ul li a .badge {
   font-weight: 800;
 }
 nav ul li ul li a {
-  background: #666;
+  background: #222;
   border-left: 4px solid transparent;
   padding: 10px 20px;
 }
 nav ul li ul li a:hover {
-  background: #555;
+  background: #111;
   border-left: 4px solid #3498db;
 }
 
@@ -99,12 +99,12 @@ nav ul li ul li ul li a:hover {
 
 nav ul li ul li ul li ul li a {
   font-size: 10px;
-  background: #222;
+  background: #666;
   border-left: 12px solid transparent;
   padding: 10px 20px;
 }
 nav ul li ul li ul li ul li a:hover {
-  background: #111;
+  background: #555;
   border-left: 4px solid #3498db;
 }
 

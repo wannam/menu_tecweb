@@ -88,12 +88,12 @@ nav ul li ul li a:hover {
 
 nav ul li ul li ul li a {
   font-size: 10px;
-  background: #777;
+  background: #222;
   border-left: 12px solid transparent;
   padding: 10px 20px;
 }
 nav ul li ul li ul li a:hover {
-  background: #666;
+  background: #111;
   border-left: 4px solid #3498db;
 }
 

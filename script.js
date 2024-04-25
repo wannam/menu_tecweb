@@ -9,12 +9,15 @@ $(".sub-menu a").click(function () {
 window.onload = function () {
   if (!getCookie('cookieConsent')) {
       document.getElementById('cookiePopup').style.display = 'block';
+  } else {
+      updateCookieInfo();
   }
 }
 
 function acceptCookies() {
   setCookie('cookieConsent', 'true', 30);
   document.getElementById('cookiePopup').style.display = 'none';
+  updateCookieInfo();
 }
 
 function closePopup() {
@@ -41,4 +44,14 @@ function getCookie(name) {
   }
   return null;
 }
+
+function updateCookieInfo() {
+  var cookieConsent = getCookie('cookieConsent');
+  if (cookieConsent) {
+      document.getElementById('cookieText').textContent = "You have accepted the use of cookies.";
+  } else {
+      document.getElementById('cookieText').textContent = "You have not accepted the use of cookies.";
+  }
+}
+
 

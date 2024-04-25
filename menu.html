@@ -9,13 +9,14 @@
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,100,400italic,700italic,700'><link rel="stylesheet" href="./tema.css">
 </head>
 <body>
-  
-  <div id="cookieConsent" style="display: none;">
-    <div id="cookieConsentInner">
-        This website uses cookies to ensure you get the best experience on our website. 
-        <button onclick="acceptCookies()">Got it!</button>
+
+    <div id="cookiePopup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            This website uses cookies to ensure you get the best experience on our website.
+            <button onclick="acceptCookies()">Got it!</button>
+        </div>
     </div>
-  </div>
 
   <nav class='animated bounceInDown'>
     <ul>

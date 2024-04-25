@@ -4,15 +4,21 @@ $(".sub-menu a").click(function () {
   $(this).find(".right").toggleClass("fa-caret-up fa-caret-down");
 });
 
+/*cookie*/
+
 window.onload = function () {
   if (!getCookie('cookieConsent')) {
-      document.getElementById('cookieConsent').style.display = 'block';
+      document.getElementById('cookiePopup').style.display = 'block';
   }
 }
 
 function acceptCookies() {
   setCookie('cookieConsent', 'true', 30);
-  document.getElementById('cookieConsent').style.display = 'none';
+  document.getElementById('cookiePopup').style.display = 'none';
+}
+
+function closePopup() {
+  document.getElementById('cookiePopup').style.display = 'none';
 }
 
 function setCookie(name, value, days) {
@@ -35,3 +41,4 @@ function getCookie(name) {
   }
   return null;
 }
+

@@ -74,12 +74,12 @@ nav ul li a .badge {
   font-weight: 800;
 }
 nav ul li ul li a {
-  background: #888;
+  background: #777;
   border-left: 4px solid transparent;
   padding: 10px 20px;
 }
 nav ul li ul li a:hover {
-  background: #777;
+  background: #666;
   border-left: 4px solid #3498db;
 }
 
@@ -88,34 +88,34 @@ nav ul li ul li a:hover {
 
 nav ul li ul li ul li a {
   font-size: 14px;
-  background: #555;
+  background: #666;
   border-left: 12px solid transparent;
   padding: 10px 20px;
 }
 nav ul li ul li ul li a:hover {
-  background: #444;
+  background: #555;
   border-left: 4px solid #3498db;
 }
 
 nav ul li ul li ul li ul li a {
   font-size: 12px;
-  background: #444;
+  background: #555;
   border-left: 12px solid transparent;
   padding: 10px 20px;
 }
 nav ul li ul li ul li ul li a:hover {
-  background: #333;
+  background: #444;
   border-left: 6px solid #3498db;
 }
 
 nav ul li ul li ul li ul li ul li a {
   font-size: 10px;
-  background: #333;
+  background: #444;
   border-left: 12px solid transparent;
   padding: 10px 20px;
 }
 nav ul li ul li ul li ul li ul li a:hover {
-  background: #222;
+  background: #333;
   border-left: 8px solid #3498db;
 }
 

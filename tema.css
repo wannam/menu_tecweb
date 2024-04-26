@@ -29,7 +29,6 @@ nav {
   position: absolute;
   top: 30%;
   left: 50%;
-  height: 70%;
   width: 360px;
   margin: -78px 0 100px -180px;
   -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
@@ -119,8 +118,6 @@ nav ul li ul li ul li ul li ul li a:hover {
   background: #333;
   border-left: 8px solid #3498db;
 }
-
-
 
 /* Float Right/Left */
 .right {

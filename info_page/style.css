@@ -128,22 +128,22 @@ button:hover {
 	padding: 20px;
 	border: 1px solid #ccc;
 	z-index: 9999;
-  }
+}
   
-  .popup-content {
+.popup-content {
 	text-align: center;
-  }
+}
   
-  .close {
+.close {
 	color: #aaa;
 	float: right;
 	font-size: 28px;
 	font-weight: bold;
-  }
+}
   
-  .close:hover,
-  .close:focus {
+.close:hover,
+.close:focus {
 	color: black;
 	text-decoration: none;
 	cursor: pointer;
-  }
+}

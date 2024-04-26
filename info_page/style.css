@@ -12,7 +12,6 @@ body {
 	align-items: center;
 	justify-content: center;
 	flex-direction: row;
-
 	min-height: 100vh;
 	margin: 0;
 }
@@ -40,7 +39,7 @@ p {
 	padding-top: 30px;
 	position: relative;
 	width: 350px;
-	max-width: 100%;
+	max-width: 50%;
 	text-align: center;
 	margin-left: 40%;
 	margin-right: 50px;

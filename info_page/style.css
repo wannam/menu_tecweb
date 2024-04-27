@@ -46,7 +46,7 @@ p {
 	margin-right: 50px;
 }
 
-.card-container:last-child {
+.card-container.last {
 	margin-right: 0px;
 }
 

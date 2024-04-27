@@ -36,3 +36,10 @@ function getCookie(name) {
     }
     return null;
 }
+
+// Função para redefinir o cookie e recarregar a página
+function resetAndTest() {
+    resetCookie('cookieConsent');
+    // Recarrega a página
+    window.location.reload();
+}

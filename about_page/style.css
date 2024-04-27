@@ -81,46 +81,15 @@ button.primary {
 	border-radius: 5px;
 	color: #231E39;
 	font-family: Oswald, sans-serif;
+	font-size: 16px;
 	font-weight: 600;
-	padding: 7px 25px;
+	padding: 5px 25px;
 	position: absolute;
-	bottom: 5%;
+	bottom: 10%;
 	left: 50%;
 	transform: translateX(-50%);
 }
 
 button:hover {
 	background-color: #86b6b9;
-}
-
-/*cookie popup*/
-
-.popup {
-	display: none;
-	position: fixed;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	background-color: #f1f1f1;
-	padding: 20px;
-	border: 1px solid #ccc;
-	z-index: 9999;
-}
-  
-.popup-content {
-	text-align: center;
-}
-  
-.close {
-	color: #aaa;
-	float: right;
-	font-size: 28px;
-	font-weight: bold;
-}
-  
-.close:hover,
-.close:focus {
-	color: black;
-	text-decoration: none;
-	cursor: pointer;
 }

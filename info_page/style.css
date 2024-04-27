@@ -43,11 +43,10 @@ p {
 	width: 350px;
 	max-width: 100%;
 	text-align: center;
-	margin-right: 50px;
 }
 
-.card-container:last-child {
-	margin-right: 0px;
+.card-container:first-child {
+	margin-right: 50px;
 }
 
 
@@ -110,8 +109,8 @@ button.primary {
 	padding: 5px 25px;
 	position: absolute;
 	bottom: 10%;
-	left: 40%;
-	transform: translateX(-60%);
+	left: 50%;
+	transform: translateX(-50%);
 }
 
 button:hover {

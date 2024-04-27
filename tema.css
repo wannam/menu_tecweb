@@ -70,7 +70,7 @@ nav ul li a .badge {
   background: rgba(255, 255, 255, 0.2);
   padding: 3px 7px;
   color: #fff;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 800;
 }
 nav ul li ul li a {
@@ -87,7 +87,7 @@ nav ul li ul li a:hover {
 /*new*/
 
 nav ul li ul li ul li a {
-  font-size: 14px;
+  font-size: 16px;
   background: #666;
   border-left: 12px solid transparent;
   padding: 10px 20px;
@@ -98,7 +98,7 @@ nav ul li ul li ul li a:hover {
 }
 
 nav ul li ul li ul li ul li a {
-  font-size: 12px;
+  font-size: 14px;
   background: #555;
   border-left: 12px solid transparent;
   padding: 10px 20px;
@@ -109,7 +109,7 @@ nav ul li ul li ul li ul li a:hover {
 }
 
 nav ul li ul li ul li ul li ul li a {
-  font-size: 10px;
+  font-size: 12px;
   background: #444;
   border-left: 12px solid transparent;
   padding: 10px 20px;

@@ -29,7 +29,7 @@ ul {
 nav {
   position: absolute;
   top: 30%;
-  left: 30%;
+  left: 50%;
   width: 600px; /* Increase the width */
   height: 300px; /* Increase the height */
   margin: -150px 0 0 -300px;

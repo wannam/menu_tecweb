@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css2?family=Oswald');
+
 * {
 	box-sizing: border-box;
 }
@@ -33,12 +34,11 @@ p {
 
 .info-group p a {
 	color: #b2d7da;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 .info-group p a:hover {
-	color: #04091d;
-	text-decoration: underline;
+	color: #53898d;
 }
 
 .card-container {

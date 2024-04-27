@@ -107,11 +107,11 @@ button.primary {
 	font-family: Oswald, sans-serif;
 	font-size: 16px;
 	font-weight: 600;
-	padding: 10px 25px;
+	padding: 5px 25px;
 	position: absolute;
 	bottom: 10%;
-	left: 50%;
-	transform: translateX(-50%);
+	left: 40%;
+	transform: translateX(-60%);
 }
 
 button:hover {

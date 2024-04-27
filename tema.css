@@ -5,7 +5,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   font-family: "Roboto";
-  font-size: 16px;
+  font-size: 20px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -29,7 +29,7 @@ nav {
   position: absolute;
   top: 30%;
   left: 50%;
-  width: 360px;
+  width: 500px;
   margin: -78px 0 100px -180px;
   -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
@@ -46,7 +46,7 @@ nav ul li {
 nav ul li a {
   display: block;
   background: #3498db;
-  padding: 10px 15px;
+  padding: 15px 20px;
   color: #fff;
   text-decoration: none;
   -webkit-transition: 0.2s linear;
@@ -59,7 +59,7 @@ nav ul li a:hover {
   background: #2980b9;
 }
 nav ul li a .fa {
-  width: 16px;
+  width: 20px;
   text-align: center;
   margin-right: 5px;
 }
@@ -70,13 +70,13 @@ nav ul li a .badge {
   background: rgba(255, 255, 255, 0.2);
   padding: 3px 7px;
   color: #fff;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 800;
 }
 nav ul li ul li a {
   background: #777;
   border-left: 4px solid transparent;
-  padding: 10px 20px;
+  padding: 15px 25px;
 }
 nav ul li ul li a:hover {
   background: #666;

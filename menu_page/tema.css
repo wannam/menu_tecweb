@@ -8,8 +8,6 @@ body {
   font-size: 30px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  align-items: center;
-	justify-content: center;
 }
 body::before {
   content: '';
@@ -31,7 +29,6 @@ nav {
   position: absolute;
   margin-top: 30%;
   left: 50%;
-  transform: translateX(-50%);
 	min-width: 500px;
 	max-width: 700px;
   -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);

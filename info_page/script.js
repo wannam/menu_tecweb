@@ -8,7 +8,7 @@ window.onload = function () {
   }
   
 function acceptCookies() {
-    setCookie('cookieConsent', 'true', 30);
+    setCookie('cookieConsent', 'cookie aceito', 30);
     document.getElementById('cookiePopup').style.display = 'none';
 }
   
@@ -35,11 +35,4 @@ function getCookie(name) {
         if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
     }
     return null;
-}
-
-// Função para redefinir o cookie e recarregar a página
-function resetAndTest() {
-    resetCookie('cookieConsent');
-    // Recarrega a página
-    window.location.reload();
 }

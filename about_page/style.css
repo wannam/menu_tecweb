@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Oswald');
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #71acd4;
+	font-family: Oswald, sans-serif;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+
+	min-height: 100vh;
+	margin: 0;
+}
+
+
+
+h6 {
+	font-size: 18px;
+	margin: 5px 0;
+	text-transform: uppercase;
+}
+
+p {
+	font-family: Montserrat, sans-serif;
+	font-size: 18px;
+	line-height: 21px;
+}
+
+.info-group p a {
+	color: #b2d7da;
+	text-decoration: none;
+}
+
+.info-group p a:hover {
+	color: #04091d;
+	text-decoration: underline;
+}
+
+.card-container {
+	background-color: #c3d9f2;
+	border-radius: 5px;
+	color: #101c4d;
+	padding-top: 10px;
+	position: relative;
+	width: 100%;
+	min-width: 500px;
+	max-width: 700px;
+	text-align: center;
+	margin: auto;
+	margin-right: 50px;
+	margin-left: 20%;
+	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+}
+
+.card-container:last-child {
+	margin-left: 0px;
+	margin-right: 20%;	
+}
+
+.info-group {
+	background-color: #1F1A36;
+	color: #b2d7da;
+	text-align: left;
+	padding: 15px;
+	margin: auto;
+}
+
+.info-group:nth-child(even) {
+	background-color: #366396;
+}
+
+
+button.primary {
+	background-color: #a2dce0;
+	border: 2px solid #97bbbe;
+	border-radius: 5px;
+	color: #231E39;
+	font-family: Oswald, sans-serif;
+	font-weight: 600;
+	padding: 7px 25px;
+	position: absolute;
+	bottom: 5%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+button:hover {
+	background-color: #86b6b9;
+}
+
+/*cookie popup*/
+
+.popup {
+	display: none;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #f1f1f1;
+	padding: 20px;
+	border: 1px solid #ccc;
+	z-index: 9999;
+}
+  
+.popup-content {
+	text-align: center;
+}
+  
+.close {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+  
+.close:hover,
+.close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}

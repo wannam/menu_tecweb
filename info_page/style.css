@@ -107,9 +107,9 @@ button.primary {
 	font-family: Oswald, sans-serif;
 	font-size: 20px;
 	font-weight: 600;
-	padding: 12px 70px;
+	padding: 10px 70px;
 	position: absolute;
-	bottom: 7%;
+	bottom: 6%;
 	left: 50%;
 	transform: translateX(-50%);
 }

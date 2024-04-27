@@ -46,7 +46,7 @@ p {
 	margin-right: 50px;
 }
 
-.card-container:nth-child(even) {
+.card-container:last-child {
 	margin-right: 0px;
 }
 

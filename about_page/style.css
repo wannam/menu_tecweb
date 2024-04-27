@@ -85,7 +85,7 @@ button.primary {
 	font-weight: 600;
 	padding: 5px 25px;
 	position: absolute;
-	bottom: 10%;
+	bottom: 5%;
 	left: 50%;
 	transform: translateX(-50%);
 }

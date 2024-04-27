@@ -43,11 +43,11 @@ p {
 	width: 350px;
 	max-width: 100%;
 	text-align: center;
-	margin: 0;
+	margin-left: 50px;
 }
 
 .card-container:first-child {
-	margin-left: 50px;
+	margin-left: 0;
 }
 
 

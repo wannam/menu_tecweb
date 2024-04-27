@@ -29,12 +29,11 @@ ul {
 }
 nav {
   position: relative;
-  top: 30%;
+  margin-top: 30%;
   left: 50%;
   transform: translateX(-50%);
 	min-width: 500px;
 	max-width: 700px;
-  
   -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
